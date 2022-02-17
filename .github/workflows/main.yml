@@ -1,6 +1,11 @@
+
+name: Inputs
+
 on: 
-  workflow_dispatch:
-    inputs:
+ push:
+  branches: main
+on: 
+     inputs: 
       logLevel:
         description: 'Log level'     
         required: true
